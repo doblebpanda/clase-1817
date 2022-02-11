@@ -1,0 +1,73 @@
+@font-face {
+    font-family: "bran";
+    src: url(./fuentes/Anton-Regular.ttf);
+}
+
+h2{
+    font-family: 'bran'; 
+}
+
+p{
+    font-family: Corinthia;
+    font-weight: 900;
+}
+
+body{
+    background-color: chocolate;
+}
+
+h3 {
+    color: blue;
+}
+
+.titulo{
+    color: red;
+}
+
+.titulo2 {
+    color: pink;
+}
+#elmejortitulo{
+    color: yellow;
+    font-size: 50px;
+}
+
+.cuadrado{
+    width: 200px;
+    height: 200px;
+    background-color: black;
+}
+
+.rick{
+    height: 500px;
+    width: 500px;
+    background-image: url(https://cdn.hobbyconsolas.com/sites/navi.axelspringer.es/public/styles/1200/public/media/image/2021/05/rick-morty-temporada-5-2319587.jpg?itok=sO_UVHcK);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.rick2{
+    width: 300px;
+    height: 300px;
+    background-image: url(./imagenes/preocupacion-rick-y-morty-temporada-4.jpg.webp);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.parrafo1{
+    color: blue;
+}
+
+.parrafo2{
+    color: #D1F05B;
+}
+
+.parrafo3{
+    color: rgb(38, 200, 20);
+}
+
+.parrafo4{
+    color: rgba(38, 200, 20, 0.2);
+}

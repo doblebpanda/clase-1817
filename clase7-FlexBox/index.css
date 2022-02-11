@@ -1,0 +1,31 @@
+.contenedor{
+    width: 100%;
+    height: 100%;
+    background-color: blue;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.cuadrado{
+    width: 20%;
+    height: 20%;
+}
+.C-1{
+    background-color: black;
+}
+.C-2{
+    background-color: brown;
+}
+.C-3{
+    background-color: yellow;
+}
+.C-4{
+    background-color: pink;
+}
+.C-5{
+    background-color: violet;
+}
+.C-6{
+    background-color: red;
+}
