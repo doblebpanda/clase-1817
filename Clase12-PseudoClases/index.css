@@ -1,0 +1,27 @@
+h2:first-child{
+    background-color: blueviolet;
+    color: white;
+}
+h3:last-child{
+    background-color: coral;
+    color: whitev;
+}
+h4:nth-child(odd){
+    background-color: aqua;
+}
+h4:nth-child(even){
+    background-color: red;
+}
+h5:nth-child(5){
+    background-color: green;
+}
+h5:nth-child(3n){
+    background-color: yellow;
+}
+input:focus{
+    background-color: blue;
+    color: white;
+}
+.container-a{
+    margin-top: 30px;
+}

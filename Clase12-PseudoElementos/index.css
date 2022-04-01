@@ -1,0 +1,37 @@
+.texto::first-line{
+    background-color: blue;
+}
+.texto::first-letter{
+    font-size: 3em;
+    color: red;
+}
+h2::before{
+    content: 'OwO';
+    color: blue;
+    font-size: 3em;
+}
+h2::after{
+    content: 'UwU';
+    color: red;
+    font-size: 3em;
+}
+
+span{
+    text-decoration: underline;
+    position: relative;
+    cursor: pointer;
+}
+
+span:hover::after{
+    content: 'este es mi tooltip piola';
+    position: absolute;
+    left: 0;
+    top: 24px;
+    border: 1px #aaaaaa solid;
+    background-color: #ffffcc;
+    padding: 12px;
+    font-size: 14px;
+    z-index: 1;
+    border-radius: 10px;
+    color: #000;
+}

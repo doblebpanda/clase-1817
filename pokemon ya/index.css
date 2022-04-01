@@ -20,13 +20,14 @@ li{
     display: inline-block;
     margin: 0px 30px;
     color: #0C4DA2;
-    font-weight: 600;
+    font-weight: 500;
 
 }
 .navegacion{
     display:flex ;
     justify-content: space-around;
     align-items: center;
+    height: 10%;
 }
 .contenedor-info{
     display: flex;
@@ -53,14 +54,14 @@ li{
 .boton-atrapar{
     font-family: 'Poppins', sans-serif;
     text-transform: uppercase;
-    text-size-adjust: 20px;
-    padding: 10px;
+    padding: 5px;
+    font-size: 1em;
     background-color: #0C4DA2;
     color: white;
     border: none;
     border-radius: 10px;
-    height: 40px;
-    width: 50%;
+    height: 50px;
+    width: 45%;
     margin-top: 20px;
 }
 .seccion-azul{
@@ -74,20 +75,20 @@ li{
 }
 .titulo-azul{
     color: #FCDB7D;
-    font-size: 80px;
+    font-size: 50px;
     font-weight: 800;
 }
 .p-azul{
     color: white;
     font-size: 30px;
-    font-weight: 300;
+    font-weight: 200;
 }
 .container-icons{
     display: flex;
     justify-content: space-around;
     width: 100%;
     flex-wrap: wrap;
-    margin-top: 90px;
+    margin-top: 70px;
 }
 .container-icon-info{
     display: flex;
@@ -102,4 +103,28 @@ li{
     font-weight: 300;
     text-align: center;
     color: white;
+}
+.pedimon-logo{
+    margin-top: auto;
+}
+@media (max-width:1232px) {
+    .boton-atrapar{
+        font-size: o.5em;
+    }
+    .img-pikachu{
+        width: 30%;
+    }
+}
+@media (max-width:825px){
+    .titulo-info{
+        font-size: 0.9em;
+    }
+    .img-pikachu{
+        width: 40%;
+    }
+}
+@media(max-width:1024px){
+    .titulo-info{
+        font-size: 1.3em;
+    }
 }
