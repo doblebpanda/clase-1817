@@ -23,7 +23,8 @@ span{
 }
 
 span:hover::after{
-    content: 'este es mi tooltip piola';
+    /* attr es un atributo que sirve para cambiar el contenido directamente de html */
+    content: attr(cosme-fulanito);
     position: absolute;
     left: 0;
     top: 24px;

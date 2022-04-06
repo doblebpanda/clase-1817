@@ -107,9 +107,19 @@ li{
 .pedimon-logo{
     margin-top: auto;
 }
+.li-nav:hover{
+    color: white;
+    cursor: pointer;
+}
+.boton-atrapar:hover{
+    cursor: pointer;
+    color: #0C4DA2;
+    background-color: white;
+}
+
 @media (max-width:1232px) {
     .boton-atrapar{
-        font-size: o.5em;
+        font-size: 0.5em;
     }
     .img-pikachu{
         width: 30%;
